@@ -8,7 +8,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "heroku-postbuild": "yarn run build",
     "build": "webpack --config webpack.config.js",
     "start": "./node_modules/.bin/babel-node server/server.js --config-file ./babel.config.server.js",
     "lint": "eslint app/src/**/*.js",
