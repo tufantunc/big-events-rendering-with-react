@@ -1,0 +1,30 @@
+@import "./pageHeader.module";
+
+.container {
+    background-color: transparent;
+    position: relative;
+    top: initial;
+    left: initial;
+
+    div {
+        padding: 2px;
+        height: 30px;
+               
+
+        span{
+            margin-left: 5px;
+
+            &:first-child {
+                margin-left: 3;
+            }
+        }
+    }
+}
+
+.greenText {
+    color: green;
+}
+
+.selectedEvent {
+    background-color: yellow;
+}

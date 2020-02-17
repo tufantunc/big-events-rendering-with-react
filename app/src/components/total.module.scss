@@ -1,0 +1,14 @@
+.totalContainer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #999;
+    border: 2px solid #777;
+    width: 380px;
+    padding: 10px;
+
+    div {
+        font-size: 14px;
+        border-bottom: 1px solid #777;
+    }
+}
